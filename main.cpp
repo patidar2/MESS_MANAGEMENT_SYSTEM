@@ -265,6 +265,7 @@ int main()
     cout<<"2. To Register for different mess"<<endl<<endl;
     cout<<"3. To Display Mess Menu"<<endl<<endl;
     cout<<"4. To Display Bill till date"<<endl<<endl;
+    cout<<"DEFAULT MESS RED IS BEEN SELECTED."<<endl<<endl;
     cout<<"Press x to exit"<<endl<<endl;
     Mess m;
     cout<<"Enter your choice  ";
@@ -314,7 +315,8 @@ int main()
             arckfeb=((arimonth==2&&aridate<=28&&aridate>=0)||(arimonth==2&&ariyear%4==0&&aridate==29));
             arckdate_month31=((arimonth==1||arimonth==3||arimonth==5||arimonth==7||arimonth==8||arimonth==10||arimonth==12)&&(aridate<=31&&aridate>=0));
             arckdate_month30=((arimonth==4||arimonth==6||arimonth==9||arimonth==11)&&(aridate<=30&&aridate>=0));
-            if(ckfeb||ckdate_month30||ckdate_month31||arckdate_month30||arckdate_month31||arckfeb)
+            //cout<<"test="<<ckfeb<<ckdate_month30<<ckdate_month31<<arckdate_month30<<arckdate_month31<<arckfeb;
+            if((ckfeb||ckdate_month30||ckdate_month31)&&(arckdate_month30||arckdate_month31||arckfeb))
             {
                 cout<<"Date of Departure for leave is "<<depdate<<"/"<<depmonth<<"/"<<depyear<<endl<<endl;
                 cout<<"Date of Arrival for leave is "<<aridate<<"/"<<arimonth<<"/"<<ariyear<<endl<<endl;
@@ -324,14 +326,20 @@ int main()
                 fout.open ("leave_data.TXT",ios::app); // Append mode
                 if(fin.is_open())
                 fout<< "\nusername       "<<s<<"\n"<<"departure date "<<depdate<<"/"<<depmonth<<"/"<<depyear<<"\n"<<"arrival date   "<<aridate<<"/"<<arimonth<<"/"<<ariyear<<"\n"; // Writing data to file
-                cout<<"\n your leave has registered";
+                cout<<"\nYour leave has been registered";
                 fin.close();
                 fout.close(); // Closing the file
+                char stp1;
+                stp1=getch();
                 n--;
             }
-            else
+            else{
                 cout<<"You Entered something Wrong while entering leave date"<<endl;
+                char stp2;
+                stp2=getch();
+                }
             break;
+
 
 
                     //CODE FOR REGISTERING DIFFERENT MESS
@@ -406,20 +414,22 @@ int main()
 
         case 4:
             system("CLS");
-            cout<<"your bill for different mess is shown below\nNAME               MESS GREEN              MESS BLUE                    MESS RED                   TOTAL\n";
+            cout<<"Your bill for different mess is shown below\nNAME               MESS GREEN              MESS BLUE                    MESS RED                   TOTAL\n";
             Mess k;
             k.bill(s);
-            cout<<"press x to return";
+           /*
             cg3=getch();
             if(cg3=='x')
                 break;
             default:
                 {
                     cout<<"Wrong Input"<<endl<<"Please Choose Again";
-                    char chodef;
-                    chodef=getch();
+
                     continue;
-                }
+                }*/
+             cout<<"Press any key to EXIT.";
+            char chodef;
+            chodef=getch();
             }
         }
         else
