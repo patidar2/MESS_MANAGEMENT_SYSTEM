@@ -1,0 +1,28 @@
+different student/faculty took leave-;
+username ramesh
+departure date 12/9/1998
+arrival date12/12/1998
+
+username       suresh
+departure date 11/11/1991
+arrival date   11/12/1998
+
+username       suraj
+departure date 12/12/1998
+arrival date   12/12/1998
+
+username       gourav
+departure date 12/12/1998
+arrival date   13/12/1999
+
+username       sumit
+departure date 12/12/1998
+arrival date   14/12/1998
+
+username       sumit
+departure date 12/12/2019
+arrival date   15/12/2019
+
+username       gourav
+departure date 12/12/1212
+arrival date   12/12/1211

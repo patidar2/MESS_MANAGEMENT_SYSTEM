@@ -1,0 +1,6 @@
+NAME               MESS GREEN              MESS BLUE                    MESS RED                   TOTAL
+vikash             1300rs.                 1200rs.                      1400rs.                    3900rs.
+gourav             1000rs.                 1100rs.                      1100rs.                    3200rs.
+ankit              1600rs.                 1200rs.                      1400rs.                    4200rs.
+utpal              1300rs.                 1200rs.                      1400rs.                    3900rs.
+sumit              1300rs.                 1200rs.                      1400rs.                    3900rs.

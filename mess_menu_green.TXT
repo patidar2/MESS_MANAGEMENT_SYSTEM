@@ -1,0 +1,18 @@
+day                    breakfast                                               lunch                                            dinner
+
+common                 Milk ,Bournvita, Coffee Powder, Tea, Butter, Jam,       Plain Chapati, Salad, Pudina or Dhaniya          Plain Chapati, Salad
+                       Bread (Brown & White), Corn Flakes, Sprout1             chutney
+
+sunday                 Masala Dosa, Sambhar, Coconut Chutney                   Plain Rice, Masoor Dal, Cabbage Matar,           Peas Pulao, Chana Dal, Rajma Masala,                                                                                   Curd                                             sewai
+
+monday                 Uttapam, Sambhar, Coconut Chutney                       Peas Pulao, Chana Dal, Aloo Soyabean,            Plain Rice, Dal Makhani, (Egg Curry#3,                                                                                 Boondi Raita                                     Kadhai
+
+Tuesday                Pyaaz and Azwain Paratha, Chhole, Pickle                Plain Rice, Dal Tadka, Kadhi Pakoda, Curd        Fried Rice, Arhar Dal, Aloo Matar,                                                                                                                                      Custard
+
+wednesday              Fried Idli / Sambhar Vada, Sambhar, Coconut             Jeera Rice, Masoor Dal, Aloo Gobhi,              Plain Rice, Dal Tadka, Paneer Butter                           chutney                                                 Seasonal Fruit#                                  Masala(chicken)
+
+Thursday               Poori, Chhole / Aloo Vada, Sauce                        Plain Rice, Dal Fry, Rajma Masala, Curd          Plain Paratha, Lemon Rice, Mix Veg,                                                                                                                                     Boondi Laddu/ Boondi
+
+Friday                 Poha, Jalebi / Paav Bhaji                               Pyaaz Paratha2,Fried Rice, Dal Makhani,          Plain Rice, Moong Dal, Black Chana                                                                                     Aloo Jeera, Seasonal Fruit                       Masala
+
+Saturday               Masala Dosa, Sambhar, Chutney                           Jeera Rice, Dal Fry, Lauki Chana, Boondi         Butter Roti2, Veg Biryani, Navratan                                                                                    Raita                                           Korma,Papad
